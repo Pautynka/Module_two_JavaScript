@@ -1,0 +1,14 @@
+let s,m,d,u,o;
+let fnum = prompt('Введите первое число!', 1);
+let snum = prompt('Введите первое число!', 1);
+s = Math.round(Number(fnum)+Number(snum));
+m = Math.round(Number(fnum)-Number(snum));
+d = Math.round(Number(fnum)/Number(snum));
+u = Math.round(Number(fnum)*Number(snum));
+o = Math.round(Number(fnum)%Number(snum));
+document.write('Вы ввели '+fnum+' и еще ' +snum+'<br />');
+document.write('сумма равна '+ s +'<br />');
+document.write('разница равна '+ m +'<br />');
+document.write('часное равно '+ d +'<br />');
+document.write('произведение равно '+ u +'<br />');
+document.write('остаток равен '+ o+ '<br />');
